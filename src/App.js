@@ -9,7 +9,7 @@ import Posting from './components/contents/Posting';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
 
         <Routes>

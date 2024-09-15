@@ -1,0 +1,17 @@
+
+.sidebar-wrap {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    z-index : 999;
+    width: 200px;
+    height: 100vh;
+    left: -200px;
+
+    transition: 0.5s ease;
+    &.open {
+        left: 0;
+        transition: 0.5s ease;
+    }
+}
+

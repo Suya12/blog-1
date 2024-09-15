@@ -1,0 +1,12 @@
+.dropdown-develop-menu {
+
+    list-style: none;
+    background-color: white;
+    color: black;
+
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.dropdown-develop-menu img {
+    width: 20px;
+}
